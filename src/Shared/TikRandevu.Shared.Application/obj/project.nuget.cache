@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PxMnicHtYOgIWklNANzT30slJerwNUcOqr8ZDzDbkCeNcMq8jf0IHvK6tR56gpGpi924VqBZH9iMKvUniDvzyQ==",
+  "dgSpecHash": "zR8GQmCzLIZBQCUxBoSf8viA6fCbk/c1Tm7eeyMUSlyQq3guL6y+0VrMbZ3Wohdb8Xe6ctVyjswO4Yn2qLiTuQ==",
   "success": true,
   "projectFilePath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/TikRandevu.Shared.Application.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,8 @@
     "/Users/ilkerciblak/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
-    "/Users/ilkerciblak/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.1/microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512"
+    "/Users/ilkerciblak/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.1/microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512",
+    "/Users/ilkerciblak/.nuget/packages/serilog/4.0.1/serilog.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }

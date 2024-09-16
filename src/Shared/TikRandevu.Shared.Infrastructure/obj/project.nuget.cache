@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rE8QVV45fkGfu8xeowpg7fXEdKYWhKT5bfH1jKeCTN1g5o5YudIVMqMsWXhbgaYWcgHufpCJtv65XT6k0S3a6w==",
+  "dgSpecHash": "1mFnUSvwR2S+AyWdqh4sdSAp6QwJHRRkvwsFdXWDoCnSwU7+vCnxFH+KAFiBjpQTI4o39q8txvVXqdViYR7Zxg==",
   "success": true,
   "projectFilePath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Infrastructure/TikRandevu.Shared.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,7 @@
     "/Users/ilkerciblak/.nuget/packages/npgsql/8.0.3/npgsql.8.0.3.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/npgsql.entityframeworkcore.postgresql/8.0.4/npgsql.entityframeworkcore.postgresql.8.0.4.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "/Users/ilkerciblak/.nuget/packages/serilog/4.0.1/serilog.4.0.1.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/stackexchange.redis/2.7.27/stackexchange.redis.2.7.27.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512"
   ],
