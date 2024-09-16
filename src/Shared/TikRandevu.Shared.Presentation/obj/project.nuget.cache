@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "922LGIr6orX9iE8qH7R27lpIwV/sTWjv0lDChBwNGIqEw6t6l6VUuPeLF/5wjTIX2k0E8jRzzskZRRiDHveguQ==",
+  "dgSpecHash": "sq29hQGF38BMZ5jShCfiRdOpEJGo4DYbXn7+g6P3e76SObsAsQ8oNkfbHTBhqquC3/iLYb2GXuRnGFKqpIWYQw==",
   "success": true,
   "projectFilePath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Presentation/TikRandevu.Shared.Presentation.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/ilkerciblak/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

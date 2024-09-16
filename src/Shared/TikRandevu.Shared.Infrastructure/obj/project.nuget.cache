@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1mFnUSvwR2S+AyWdqh4sdSAp6QwJHRRkvwsFdXWDoCnSwU7+vCnxFH+KAFiBjpQTI4o39q8txvVXqdViYR7Zxg==",
+  "dgSpecHash": "ZzkWa5ZKiyf0vb6RxYvCVCL4MamclhGuB9/qLEDQCkFVPKr4XuFxcWnvdv/T6jBYAgzo99Jb6Glm5jWMTRgz5w==",
   "success": true,
   "projectFilePath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Infrastructure/TikRandevu.Shared.Infrastructure.csproj",
   "expectedPackageFiles": [
