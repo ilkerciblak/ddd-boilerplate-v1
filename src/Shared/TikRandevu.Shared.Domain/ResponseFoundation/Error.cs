@@ -6,7 +6,7 @@ public record Error
     public string Description { get; private set; }
     public ErrorType ErrorType { get; private set; }
 
-    protected Error(string code, string description, ErrorType errorType)
+    public Error(string code, string description, ErrorType errorType)
     {
         Code = code;
         Description = description;
