@@ -7,8 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\TikRandevu.Shared.Application\TikRandevu.Shared.Application.csproj" />
-      <ProjectReference Include="..\TikRandevu.Shared.Presentation\TikRandevu.Shared.Presentation.csproj" />
+      <ProjectReference Include="..\TikRandevu.Shared.Domain\TikRandevu.Shared.Domain.csproj" />
+      <FrameworkReference Include="Microsoft.AspNetCore.App"/>
     </ItemGroup>
 
 </Project>

@@ -102,6 +102,22 @@
         "runtime": {
           "bin/placeholder/TikRandevu.Shared.Domain.dll": {}
         }
+      },
+      "TikRandevu.Shared.Presentation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TikRandevu.Shared.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TikRandevu.Shared.Presentation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TikRandevu.Shared.Presentation.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -220,11 +236,17 @@
       "type": "project",
       "path": "../TikRandevu.Shared.Domain/TikRandevu.Shared.Domain.csproj",
       "msbuildProject": "../TikRandevu.Shared.Domain/TikRandevu.Shared.Domain.csproj"
+    },
+    "TikRandevu.Shared.Presentation/1.0.0": {
+      "type": "project",
+      "path": "../TikRandevu.Shared.Presentation/TikRandevu.Shared.Presentation.csproj",
+      "msbuildProject": "../TikRandevu.Shared.Presentation/TikRandevu.Shared.Presentation.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "TikRandevu.Shared.Application >= 1.0.0"
+      "TikRandevu.Shared.Application >= 1.0.0",
+      "TikRandevu.Shared.Presentation >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -254,6 +276,9 @@
           "projectReferences": {
             "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/TikRandevu.Shared.Application.csproj": {
               "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/TikRandevu.Shared.Application.csproj"
+            },
+            "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Presentation/TikRandevu.Shared.Presentation.csproj": {
+              "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Presentation/TikRandevu.Shared.Presentation.csproj"
             }
           }
         }

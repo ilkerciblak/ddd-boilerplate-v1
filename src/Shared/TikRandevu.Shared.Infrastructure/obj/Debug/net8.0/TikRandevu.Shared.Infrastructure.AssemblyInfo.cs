@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TikRandevu.Shared.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d484d0078ff7ac2e56f9c0cdaa1a5116e18fe6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9aaa1af273c8fa867f39b3b5d9b46c33a331b530")]
 [assembly: System.Reflection.AssemblyProductAttribute("TikRandevu.Shared.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TikRandevu.Shared.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
