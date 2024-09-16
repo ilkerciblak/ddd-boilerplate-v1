@@ -1,12 +1,15 @@
 using MediatR;
+using Microsoft.Extensions.Logging;
 
 namespace TikRandevu.Shared.Application.Behaviors;
 
-public class RequestExceptionHandlingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
+public class RequestExceptionHandlingBehavior<TRequest, TResponse>(
+    ILogger<RequestExceptionHandlingBehavior<TRequest, TResponse>> logger
+    )
+    
+    : IPipelineBehavior<TRequest, TResponse>
     
 {
-    
-    // TODO: Implement Logging 
     public async Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
     {
         try
@@ -15,7 +18,7 @@ public class RequestExceptionHandlingBehavior<TRequest, TResponse> : IPipelineBe
         }
         catch (Exception e)
         {
-            Console.WriteLine(e);
+            logger.LogError("Unhandling Exception Occured {RequestName}", typeof(TRequest).Name);
             throw new DomainException(typeof(TRequest).Name, innerException: e);
         }
     }
