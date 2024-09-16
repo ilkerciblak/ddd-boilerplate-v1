@@ -1,3 +1,4 @@
+using TikRandevu.API.Middlewares;
 using TikRandevu.Shared.Application;
 using TikRandevu.Shared.Infrastructure;
 using TikRandevu.Shared.Presentation;
@@ -14,10 +15,13 @@ services.ApplySharedInfrastructureServices(
 
 services.AddEndPoints([]);
 
+services.AddExceptionHandler<UnhandledExceptionHandlingMiddleware>();
+services.AddProblemDetails();
 
 var app = builder.Build();
 
 app.MapEndPoints();
 
+app.UseExceptionHandler();
 
 app.Run();
