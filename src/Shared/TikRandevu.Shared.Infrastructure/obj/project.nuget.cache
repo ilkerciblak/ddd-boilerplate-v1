@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cv8ke+4slRNku3pAp5NBiu2OwkrE4p9alwAS8Xk0Dd46u668OAbiK8PniGX16o1J9Zrg8tLlTSKxQW8LQiTjWA==",
+  "dgSpecHash": "tS2SyMv/LPp4Vvsu2RlEnHv1EO5r1+4tavCkO0UDCuuJuF10n1oyy3z6CJbdPyPCcut6CfCiZsn7NII2QQTRew==",
   "success": true,
-  "projectFilePath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/TikRandevu.API.csproj",
+  "projectFilePath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Infrastructure/TikRandevu.Shared.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/ilkerciblak/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.10.0/fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512",

@@ -13,4 +13,8 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\Shared\TikRandevu.Shared.Infrastructure\TikRandevu.Shared.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>

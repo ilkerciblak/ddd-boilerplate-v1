@@ -102,19 +102,6 @@
         "runtime": {
           "bin/placeholder/TikRandevu.Shared.Domain.dll": {}
         }
-      },
-      "TikRandevu.Shared.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "TikRandevu.Shared.Application": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TikRandevu.Shared.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TikRandevu.Shared.Infrastructure.dll": {}
-        }
       }
     }
   },
@@ -226,23 +213,18 @@
     },
     "TikRandevu.Shared.Application/1.0.0": {
       "type": "project",
-      "path": "../../Shared/TikRandevu.Shared.Application/TikRandevu.Shared.Application.csproj",
-      "msbuildProject": "../../Shared/TikRandevu.Shared.Application/TikRandevu.Shared.Application.csproj"
+      "path": "../TikRandevu.Shared.Application/TikRandevu.Shared.Application.csproj",
+      "msbuildProject": "../TikRandevu.Shared.Application/TikRandevu.Shared.Application.csproj"
     },
     "TikRandevu.Shared.Domain/1.0.0": {
       "type": "project",
-      "path": "../../Shared/TikRandevu.Shared.Domain/TikRandevu.Shared.Domain.csproj",
-      "msbuildProject": "../../Shared/TikRandevu.Shared.Domain/TikRandevu.Shared.Domain.csproj"
-    },
-    "TikRandevu.Shared.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../../Shared/TikRandevu.Shared.Infrastructure/TikRandevu.Shared.Infrastructure.csproj",
-      "msbuildProject": "../../Shared/TikRandevu.Shared.Infrastructure/TikRandevu.Shared.Infrastructure.csproj"
+      "path": "../TikRandevu.Shared.Domain/TikRandevu.Shared.Domain.csproj",
+      "msbuildProject": "../TikRandevu.Shared.Domain/TikRandevu.Shared.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "TikRandevu.Shared.Infrastructure >= 1.0.0"
+      "TikRandevu.Shared.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -251,11 +233,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/TikRandevu.API.csproj",
-      "projectName": "TikRandevu.API",
-      "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/TikRandevu.API.csproj",
+      "projectUniqueName": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Infrastructure/TikRandevu.Shared.Infrastructure.csproj",
+      "projectName": "TikRandevu.Shared.Infrastructure",
+      "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Infrastructure/TikRandevu.Shared.Infrastructure.csproj",
       "packagesPath": "/Users/ilkerciblak/.nuget/packages/",
-      "outputPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/obj/",
+      "outputPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ilkerciblak/.nuget/NuGet/NuGet.Config"
@@ -270,8 +252,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Infrastructure/TikRandevu.Shared.Infrastructure.csproj": {
-              "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Infrastructure/TikRandevu.Shared.Infrastructure.csproj"
+            "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/TikRandevu.Shared.Application.csproj": {
+              "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/TikRandevu.Shared.Application.csproj"
             }
           }
         }
@@ -297,9 +279,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TikRandevu.API")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("TikRandevu.Shared.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d484d0078ff7ac2e56f9c0cdaa1a5116e18fe6f")]
-[assembly: System.Reflection.AssemblyProductAttribute("TikRandevu.API")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TikRandevu.API")]
+[assembly: System.Reflection.AssemblyProductAttribute("TikRandevu.Shared.Infrastructure")]
+[assembly: System.Reflection.AssemblyTitleAttribute("TikRandevu.Shared.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
