@@ -37,7 +37,7 @@
       - "6000:8080"
       - "6060:8081"
     volumes:
-      - /Users/ilkerciblak/.microsoft/usersecrets:/home/app/.microsoft/usersecrets:ro
+      - ~/.microsoft/usersecrets:/home/app/.microsoft/usersecrets:ro
       - ~/.aspnet/https:/https:ro
       
       
