@@ -1,6 +1,43 @@
 ﻿services:
+  tikrandevu.db:
+    image: postgres:latest
+    container_name: TikRandevu.db
+    restart: always
+    environment:
+      - POSTGRES_DB=TikRandevu
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=pass
+    volumes:
+      - ./.containers/db:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+  tikrandevu.redis:
+    image: redis:latest
+    container_name: TikRandevu.redis
+    restart: always
+    ports:
+      - "6379:6379"
   tikrandevu.api:
     image: tikrandevu.api
+    depends_on:
+      - tikrandevu.db
+      - tikrandevu.redis
     build:
       context: .
       dockerfile: API/TikRandevu.API/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+      - ConnectionStrings__Database=Server=tikrandevu.db;Port=5432;Database=TikRandevu;User Id=postgres;Password=pass;Include Error Detail=true
+      - ConnectionStrings__Redis=tikrandevu.redis:6379
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=682862Ask
+    ports:
+      - "6000:8080"
+      - "6060:8081"
+    volumes:
+      - /Users/ilkerciblak/.microsoft/usersecrets:/home/app/.microsoft/usersecrets:ro
+      - ~/.aspnet/https:/https:ro
+      
+      

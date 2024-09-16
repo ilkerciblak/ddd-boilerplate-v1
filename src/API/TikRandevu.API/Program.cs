@@ -8,7 +8,9 @@ var services = builder.Services;
 
 services.ApplySharedApplicationServices([]);
 
-services.ApplySharedInfrastructureServices();
+services.ApplySharedInfrastructureServices(
+    builder.Configuration
+);
 
 services.AddEndPoints([]);
 
