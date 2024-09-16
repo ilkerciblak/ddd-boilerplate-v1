@@ -1,0 +1,6 @@
+﻿services:
+  tikrandevu.api:
+    image: tikrandevu.api
+    build:
+      context: .
+      dockerfile: API/TikRandevu.API/Dockerfile
