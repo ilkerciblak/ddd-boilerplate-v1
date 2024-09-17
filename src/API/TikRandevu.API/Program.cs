@@ -19,7 +19,8 @@ var services = builder.Services;
 services.ApplySharedApplicationServices([]);
 
 services.ApplySharedInfrastructureServices(
-    builder.Configuration
+    configuration: builder.Configuration,
+    moduleConfigureConsumers: []
 );
 
 services.AddEndPoints([]);
@@ -32,5 +33,6 @@ var app = builder.Build();
 app.MapEndPoints();
 
 app.UseExceptionHandler();
+app.UseSerilogRequestLogging();
 
 app.Run();

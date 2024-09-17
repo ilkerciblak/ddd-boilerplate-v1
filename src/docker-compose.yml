@@ -17,6 +17,14 @@
     restart: always
     ports:
       - "6379:6379"
+  tikrandevu.seq:
+    image: datalust/seq:latest
+    container_name: TikRandevu.seq
+    environment:
+      - ACCEPT_EULA=Y
+    ports:
+      - "5341:5341"
+      - "8081:80"
   tikrandevu.api:
     image: tikrandevu.api
     depends_on:
@@ -29,7 +37,7 @@
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_HTTP_PORTS=8080
       - ASPNETCORE_HTTPS_PORTS=8081
-      - ConnectionStrings__Database=Server=tikrandevu.db;Port=5432;Database=TikRandevu;User Id=postgres;Password=pass;Include Error Detail=true
+      - ConnectionStrings__Database=HOST=tikrandevu.db;Port=5432;Database=TikRandevu;User Id=postgres;Password=pass;Include Error Detail=true
       - ConnectionStrings__Redis=tikrandevu.redis:6379
       - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
       - ASPNETCORE_Kestrel__Certificates__Default__Password=682862Ask

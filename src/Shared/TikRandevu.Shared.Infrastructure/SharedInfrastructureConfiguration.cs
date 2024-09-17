@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using MassTransit;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using StackExchange.Redis;
@@ -12,6 +13,7 @@ public static class SharedInfrastructureConfiguration
 {
     public static IServiceCollection ApplySharedInfrastructureServices(
         this IServiceCollection services,
+        Action<IRegistrationConfigurator>[] moduleConfigureConsumers,
         IConfiguration configuration
     )
     {
@@ -28,6 +30,24 @@ public static class SharedInfrastructureConfiguration
 
         services.TryAddSingleton<PublishDomainEventInterceptor>();
         services.TryAddSingleton<ICacheService, CacheService>();
+        
+
+        services.AddMassTransit(configure: cfg =>
+        {
+            
+            foreach (Action<IRegistrationConfigurator> configureConsumers in moduleConfigureConsumers)
+            {
+                configureConsumers(cfg);
+            }
+            
+            // cfg.SetKebabCaseEndpointNameFormatter();
+            
+            cfg.UsingInMemory(configure: (context, configurator) =>
+            {
+                configurator.ConfigureEndpoints(context);
+            });
+            
+        });
 
         return services;
     }

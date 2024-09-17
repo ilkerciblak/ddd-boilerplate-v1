@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "TJSpuGdMGdapaVCJgyhWSN1HOzA+L05gzJaHlVi9rX5T/w7QnslEq7LD4bR26rAAJnfdgpWG9pHo3u3YXwiekw==",
+  "dgSpecHash": "P78qKZq4fbQ0JccpbLmthj/VOCdLfl1u4ey00KA0xVJp2wQLrbeQPhSifP1nQUc02E0x8Cg5+HiZlqp8vwJ/4Q==",
   "success": true,
   "projectFilePath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/TikRandevu.API.csproj",
   "expectedPackageFiles": [
     "/Users/ilkerciblak/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.10.0/fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512",
+    "/Users/ilkerciblak/.nuget/packages/masstransit/8.2.5/masstransit.8.2.5.nupkg.sha512",
+    "/Users/ilkerciblak/.nuget/packages/masstransit.abstractions/8.2.5/masstransit.abstractions.8.2.5.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/microsoft.entityframeworkcore/8.0.4/microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
@@ -21,6 +23,8 @@
     "/Users/ilkerciblak/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/microsoft.extensions.dependencymodel/8.0.1/microsoft.extensions.dependencymodel.8.0.1.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.0/microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "/Users/ilkerciblak/.nuget/packages/microsoft.extensions.diagnostics.healthchecks/8.0.0/microsoft.extensions.diagnostics.healthchecks.8.0.0.nupkg.sha512",
+    "/Users/ilkerciblak/.nuget/packages/microsoft.extensions.diagnostics.healthchecks.abstractions/8.0.0/microsoft.extensions.diagnostics.healthchecks.abstractions.8.0.0.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/microsoft.extensions.hosting.abstractions/8.0.0/microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
