@@ -12,6 +12,7 @@
           "Serilog.AspNetCore": "8.0.2",
           "Serilog.Sinks.Seq": "8.0.0",
           "TikRandevu.Modules.Provisions.Infrastructure": "1.0.0",
+          "TikRandevu.Modules.Rezervations.Infrastructure": "1.0.0",
           "TikRandevu.Modules.Suppliers.Infrastructure": "1.0.0",
           "TikRandevu.Shared.Infrastructure": "1.0.0"
         },
@@ -804,6 +805,43 @@
           "TikRandevu.Modules.Provisions.Presentation.dll": {}
         }
       },
+      "TikRandevu.Modules.Rezervations.Application/1.0.0": {
+        "dependencies": {
+          "TikRandevu.Modules.Rezervations.Domain": "1.0.0",
+          "TikRandevu.Modules.Suppliers.PublicAPI": "1.0.0",
+          "TikRandevu.Shared.Application": "1.0.0"
+        },
+        "runtime": {
+          "TikRandevu.Modules.Rezervations.Application.dll": {}
+        }
+      },
+      "TikRandevu.Modules.Rezervations.Domain/1.0.0": {
+        "dependencies": {
+          "TikRandevu.Shared.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TikRandevu.Modules.Rezervations.Domain.dll": {}
+        }
+      },
+      "TikRandevu.Modules.Rezervations.Infrastructure/1.0.0": {
+        "dependencies": {
+          "TikRandevu.Modules.Rezervations.Application": "1.0.0",
+          "TikRandevu.Modules.Rezervations.Presentation": "1.0.0",
+          "TikRandevu.Shared.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "TikRandevu.Modules.Rezervations.Infrastructure.dll": {}
+        }
+      },
+      "TikRandevu.Modules.Rezervations.Presentation/1.0.0": {
+        "dependencies": {
+          "TikRandevu.Modules.Rezervations.Application": "1.0.0",
+          "TikRandevu.Shared.Presentation": "1.0.0"
+        },
+        "runtime": {
+          "TikRandevu.Modules.Rezervations.Presentation.dll": {}
+        }
+      },
       "TikRandevu.Modules.Suppliers.Application/1.0.0": {
         "dependencies": {
           "TikRandevu.Modules.Suppliers.Domain": "1.0.0",
@@ -833,11 +871,21 @@
       },
       "TikRandevu.Modules.Suppliers.Presentation/1.0.0": {
         "dependencies": {
+          "TikRandevu.Modules.Rezervations.Application": "1.0.0",
           "TikRandevu.Modules.Suppliers.Application": "1.0.0",
+          "TikRandevu.Modules.Suppliers.PublicAPI": "1.0.0",
           "TikRandevu.Shared.Presentation": "1.0.0"
         },
         "runtime": {
           "TikRandevu.Modules.Suppliers.Presentation.dll": {}
+        }
+      },
+      "TikRandevu.Modules.Suppliers.PublicAPI/1.0.0": {
+        "dependencies": {
+          "TikRandevu.Modules.Suppliers.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TikRandevu.Modules.Suppliers.PublicAPI.dll": {}
         }
       },
       "TikRandevu.Shared.Application/1.0.0": {
@@ -874,6 +922,7 @@
       },
       "TikRandevu.Shared.Presentation/1.0.0": {
         "dependencies": {
+          "MassTransit.Abstractions": "8.2.5",
           "TikRandevu.Shared.Domain": "1.0.0"
         },
         "runtime": {
@@ -1370,6 +1419,26 @@
       "serviceable": false,
       "sha512": ""
     },
+    "TikRandevu.Modules.Rezervations.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TikRandevu.Modules.Rezervations.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TikRandevu.Modules.Rezervations.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TikRandevu.Modules.Rezervations.Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "TikRandevu.Modules.Suppliers.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1386,6 +1455,11 @@
       "sha512": ""
     },
     "TikRandevu.Modules.Suppliers.Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TikRandevu.Modules.Suppliers.PublicAPI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

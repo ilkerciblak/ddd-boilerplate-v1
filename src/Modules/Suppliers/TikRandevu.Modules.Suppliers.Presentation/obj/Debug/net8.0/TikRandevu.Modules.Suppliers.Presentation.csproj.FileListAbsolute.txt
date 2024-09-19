@@ -22,3 +22,9 @@
 /Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Presentation/obj/Debug/net8.0/refint/TikRandevu.Modules.Suppliers.Presentation.dll
 /Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Presentation/obj/Debug/net8.0/TikRandevu.Modules.Suppliers.Presentation.pdb
 /Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Presentation/obj/Debug/net8.0/ref/TikRandevu.Modules.Suppliers.Presentation.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Presentation/bin/Debug/net8.0/TikRandevu.Modules.Rezervations.Application.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Presentation/bin/Debug/net8.0/TikRandevu.Modules.Rezervations.Domain.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Presentation/bin/Debug/net8.0/TikRandevu.Modules.Suppliers.PublicAPI.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Presentation/bin/Debug/net8.0/TikRandevu.Modules.Rezervations.Application.pdb
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Presentation/bin/Debug/net8.0/TikRandevu.Modules.Suppliers.PublicAPI.pdb
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Presentation/bin/Debug/net8.0/TikRandevu.Modules.Rezervations.Domain.pdb

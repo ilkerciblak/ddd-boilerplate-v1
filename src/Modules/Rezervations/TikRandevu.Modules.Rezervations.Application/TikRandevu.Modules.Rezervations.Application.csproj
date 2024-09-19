@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\..\Shared\TikRandevu.Shared.Application\TikRandevu.Shared.Application.csproj" />
+      <ProjectReference Include="..\..\Suppliers\TikRandevu.Modules.Suppliers.PublicAPI\TikRandevu.Modules.Suppliers.PublicAPI.csproj" />
       <ProjectReference Include="..\TikRandevu.Modules.Rezervations.Domain\TikRandevu.Modules.Rezervations.Domain.csproj" />
     </ItemGroup>
 

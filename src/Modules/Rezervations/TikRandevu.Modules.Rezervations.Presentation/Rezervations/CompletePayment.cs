@@ -17,7 +17,7 @@ public class CompletePayment : IEndPoint
     public void MapEndPoint(IEndpointRouteBuilder app)
     {
         app.MapPut(
-            "rezervations",
+            "rezervations/pay",
             async ([FromBody] CompletePaymentRequest request, ISender sender) =>
             {
                 var result = await sender.Send(new CompletePaymentCommand(request.rezervationId));

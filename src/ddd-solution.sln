@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Rezervat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Rezervations.Presentation", "Modules\Rezervations\TikRandevu.Modules.Rezervations.Presentation\TikRandevu.Modules.Rezervations.Presentation.csproj", "{3C6D6C1D-90E3-4EB0-8CF7-7DE52B53C2C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Rezervations.Infrastructure", "Modules\Rezervations\TikRandevu.Modules.Rezervations.Infrastructure\TikRandevu.Modules.Rezervations.Infrastructure.csproj", "{44BBD0FD-13FD-431C-8D9E-0305EA71DD9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Suppliers.PublicAPI", "Modules\Suppliers\TikRandevu.Modules.Suppliers.PublicAPI\TikRandevu.Modules.Suppliers.PublicAPI.csproj", "{9379441D-710A-46AB-A6F6-26C62D2D49BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +81,8 @@ Global
 		{33C490F7-823D-423F-876D-CECBB3FBA51A} = {6E9ECAD8-0406-4579-9ABE-F67C78A68636}
 		{73B448E8-85D5-4A78-9E5F-EFE224CE1FA3} = {6E9ECAD8-0406-4579-9ABE-F67C78A68636}
 		{3C6D6C1D-90E3-4EB0-8CF7-7DE52B53C2C7} = {6E9ECAD8-0406-4579-9ABE-F67C78A68636}
+		{44BBD0FD-13FD-431C-8D9E-0305EA71DD9F} = {6E9ECAD8-0406-4579-9ABE-F67C78A68636}
+		{9379441D-710A-46AB-A6F6-26C62D2D49BF} = {DCEF2C1B-7B6A-41FF-ACC3-AE6B11A02077}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{355CB228-892D-40D9-84C2-2EBAEC2A400F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -143,5 +149,13 @@ Global
 		{3C6D6C1D-90E3-4EB0-8CF7-7DE52B53C2C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C6D6C1D-90E3-4EB0-8CF7-7DE52B53C2C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C6D6C1D-90E3-4EB0-8CF7-7DE52B53C2C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44BBD0FD-13FD-431C-8D9E-0305EA71DD9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44BBD0FD-13FD-431C-8D9E-0305EA71DD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44BBD0FD-13FD-431C-8D9E-0305EA71DD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44BBD0FD-13FD-431C-8D9E-0305EA71DD9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9379441D-710A-46AB-A6F6-26C62D2D49BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9379441D-710A-46AB-A6F6-26C62D2D49BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9379441D-710A-46AB-A6F6-26C62D2D49BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9379441D-710A-46AB-A6F6-26C62D2D49BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

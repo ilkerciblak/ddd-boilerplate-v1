@@ -11,6 +11,8 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("TikRandevu.Modules.Provisions.Presentation")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("TikRandevu.Modules.Rezervations.Presentation")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("TikRandevu.Modules.Suppliers.Infrastructure")]
 [assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("TikRandevu.Modules.Suppliers.Presentation")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
 using TikRandevu.Modules.Suppliers.Application.SupplierProvisions.GetAllSupplierProvisions;
+using TikRandevu.Modules.Suppliers.Application.SupplierRezervations.GetAllRezervations;
 using TikRandevu.Shared.Presentation.ApiResult;
 using TikRandevu.Shared.Presentation.EndPoints;
 
@@ -16,7 +17,7 @@ public sealed class GetAllSupplierRezervations : IEndPoint
             "supplier-rezervations",
             async ([AsParameters] Guid supplierId, ISender sender) =>
         {
-            var result = await sender.Send(new GetAllSupplierProvisionsQuery(supplierId));
+            var result = await sender.Send(new GetAllSupplierRezervationsQuery(supplierId));
 
             return result.Match(Results.Ok, ApiResult.Problem);
         });
@@ -26,7 +27,7 @@ public sealed class GetAllSupplierRezervations : IEndPoint
             "suppliers/{supplierId}/rezervations",
             async (Guid supplierId, ISender sender) =>
             {
-                var result = await sender.Send(new GetAllSupplierProvisionsQuery(supplierId));
+                var result = await sender.Send(new GetAllSupplierRezervationsQuery(supplierId));
 
                 return result.Match(Results.Ok, ApiResult.Problem);
             });

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sq29hQGF38BMZ5jShCfiRdOpEJGo4DYbXn7+g6P3e76SObsAsQ8oNkfbHTBhqquC3/iLYb2GXuRnGFKqpIWYQw==",
+  "dgSpecHash": "/PRaECzVGqg=",
   "success": true,
   "projectFilePath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Presentation/TikRandevu.Shared.Presentation.csproj",
   "expectedPackageFiles": [
+    "/Users/ilkerciblak/.nuget/packages/masstransit.abstractions/8.2.5/masstransit.abstractions.8.2.5.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512"
   ],
   "logs": []

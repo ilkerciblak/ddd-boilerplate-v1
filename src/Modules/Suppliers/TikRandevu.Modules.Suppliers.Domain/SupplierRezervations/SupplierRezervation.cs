@@ -19,9 +19,11 @@ public sealed class SupplierRezervation : Entity
     }
 
     public static Result<SupplierRezervation> Create(
+        
         Guid supplierId,
         Guid provisionId,
         Guid customerId,
+        string customerName,
         DateTime rezervartionTime)
     {
         if (DateTime.Compare(rezervartionTime, DateTime.UtcNow) <= 0)
@@ -39,7 +41,9 @@ public sealed class SupplierRezervation : Entity
             SupplierId = supplierId,
             ProvisionId = provisionId,
             CustomerId = customerId,
-            RezervationDate = rezervartionTime
+            RezervationDate = rezervartionTime,
+            CustomerName = customerName 
+            
         };
 
         return rezervation;

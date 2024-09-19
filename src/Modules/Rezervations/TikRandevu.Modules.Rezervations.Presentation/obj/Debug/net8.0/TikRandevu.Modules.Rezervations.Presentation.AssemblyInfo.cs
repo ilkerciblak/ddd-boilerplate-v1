@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TikRandevu.Modules.Rezervations.Presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7829c20d625a6212a1ab8156c2f71716a7436b08")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef796906c8b0b71717b85f69ebc5ad5034770e07")]
 [assembly: System.Reflection.AssemblyProductAttribute("TikRandevu.Modules.Rezervations.Presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TikRandevu.Modules.Rezervations.Presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

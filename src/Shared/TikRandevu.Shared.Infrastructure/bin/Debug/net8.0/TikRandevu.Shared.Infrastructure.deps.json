@@ -304,6 +304,7 @@
       },
       "TikRandevu.Shared.Presentation/1.0.0": {
         "dependencies": {
+          "MassTransit.Abstractions": "8.2.5",
           "TikRandevu.Shared.Domain": "1.0.0"
         },
         "runtime": {

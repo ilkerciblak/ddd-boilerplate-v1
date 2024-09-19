@@ -15,6 +15,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\Modules\Provisions\TikRandevu.Modules.Provisions.Infrastructure\TikRandevu.Modules.Provisions.Infrastructure.csproj" />
+      <ProjectReference Include="..\..\Modules\Rezervations\TikRandevu.Modules.Rezervations.Infrastructure\TikRandevu.Modules.Rezervations.Infrastructure.csproj" />
       <ProjectReference Include="..\..\Modules\Suppliers\TikRandevu.Modules.Suppliers.Infrastructure\TikRandevu.Modules.Suppliers.Infrastructure.csproj" />
       <ProjectReference Include="..\..\Shared\TikRandevu.Shared.Infrastructure\TikRandevu.Shared.Infrastructure.csproj" />
     </ItemGroup>

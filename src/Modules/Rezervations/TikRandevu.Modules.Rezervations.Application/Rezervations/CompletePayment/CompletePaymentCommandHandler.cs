@@ -24,7 +24,6 @@ public sealed class CompletePaymentCommandHandler(IRezervationRepository rezerva
             return Result<Guid>.Failure<Guid>(result.Error);
         }
 
-        await rezervationRepository.CompletePayment(request.RezervationId, cancellationToken);
         await unitOfWork.SaveChangesAsync(cancellationToken);
 
         return rezervation.Identifier;

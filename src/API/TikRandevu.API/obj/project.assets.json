@@ -1371,6 +1371,63 @@
           "bin/placeholder/TikRandevu.Modules.Provisions.Presentation.dll": {}
         }
       },
+      "TikRandevu.Modules.Rezervations.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TikRandevu.Modules.Rezervations.Domain": "1.0.0",
+          "TikRandevu.Modules.Suppliers.PublicAPI": "1.0.0",
+          "TikRandevu.Shared.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TikRandevu.Modules.Rezervations.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TikRandevu.Modules.Rezervations.Application.dll": {}
+        }
+      },
+      "TikRandevu.Modules.Rezervations.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TikRandevu.Shared.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TikRandevu.Modules.Rezervations.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TikRandevu.Modules.Rezervations.Domain.dll": {}
+        }
+      },
+      "TikRandevu.Modules.Rezervations.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TikRandevu.Modules.Rezervations.Application": "1.0.0",
+          "TikRandevu.Modules.Rezervations.Presentation": "1.0.0",
+          "TikRandevu.Shared.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TikRandevu.Modules.Rezervations.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TikRandevu.Modules.Rezervations.Infrastructure.dll": {}
+        }
+      },
+      "TikRandevu.Modules.Rezervations.Presentation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TikRandevu.Modules.Rezervations.Application": "1.0.0",
+          "TikRandevu.Shared.Presentation": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TikRandevu.Modules.Rezervations.Presentation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TikRandevu.Modules.Rezervations.Presentation.dll": {}
+        }
+      },
       "TikRandevu.Modules.Suppliers.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1417,7 +1474,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "TikRandevu.Modules.Rezervations.Application": "1.0.0",
           "TikRandevu.Modules.Suppliers.Application": "1.0.0",
+          "TikRandevu.Modules.Suppliers.PublicAPI": "1.0.0",
           "TikRandevu.Shared.Presentation": "1.0.0"
         },
         "compile": {
@@ -1425,6 +1484,19 @@
         },
         "runtime": {
           "bin/placeholder/TikRandevu.Modules.Suppliers.Presentation.dll": {}
+        }
+      },
+      "TikRandevu.Modules.Suppliers.PublicAPI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TikRandevu.Modules.Suppliers.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TikRandevu.Modules.Suppliers.PublicAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TikRandevu.Modules.Suppliers.PublicAPI.dll": {}
         }
       },
       "TikRandevu.Shared.Application/1.0.0": {
@@ -1478,6 +1550,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "MassTransit.Abstractions": "8.2.5",
           "TikRandevu.Shared.Domain": "1.0.0"
         },
         "compile": {
@@ -3510,6 +3583,26 @@
       "path": "../../Modules/Provisions/TikRandevu.Modules.Provisions.Presentation/TikRandevu.Modules.Provisions.Presentation.csproj",
       "msbuildProject": "../../Modules/Provisions/TikRandevu.Modules.Provisions.Presentation/TikRandevu.Modules.Provisions.Presentation.csproj"
     },
+    "TikRandevu.Modules.Rezervations.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Modules/Rezervations/TikRandevu.Modules.Rezervations.Application/TikRandevu.Modules.Rezervations.Application.csproj",
+      "msbuildProject": "../../Modules/Rezervations/TikRandevu.Modules.Rezervations.Application/TikRandevu.Modules.Rezervations.Application.csproj"
+    },
+    "TikRandevu.Modules.Rezervations.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Modules/Rezervations/TikRandevu.Modules.Rezervations.Domain/TikRandevu.Modules.Rezervations.Domain.csproj",
+      "msbuildProject": "../../Modules/Rezervations/TikRandevu.Modules.Rezervations.Domain/TikRandevu.Modules.Rezervations.Domain.csproj"
+    },
+    "TikRandevu.Modules.Rezervations.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../Modules/Rezervations/TikRandevu.Modules.Rezervations.Infrastructure/TikRandevu.Modules.Rezervations.Infrastructure.csproj",
+      "msbuildProject": "../../Modules/Rezervations/TikRandevu.Modules.Rezervations.Infrastructure/TikRandevu.Modules.Rezervations.Infrastructure.csproj"
+    },
+    "TikRandevu.Modules.Rezervations.Presentation/1.0.0": {
+      "type": "project",
+      "path": "../../Modules/Rezervations/TikRandevu.Modules.Rezervations.Presentation/TikRandevu.Modules.Rezervations.Presentation.csproj",
+      "msbuildProject": "../../Modules/Rezervations/TikRandevu.Modules.Rezervations.Presentation/TikRandevu.Modules.Rezervations.Presentation.csproj"
+    },
     "TikRandevu.Modules.Suppliers.Application/1.0.0": {
       "type": "project",
       "path": "../../Modules/Suppliers/TikRandevu.Modules.Suppliers.Application/TikRandevu.Modules.Suppliers.Application.csproj",
@@ -3529,6 +3622,11 @@
       "type": "project",
       "path": "../../Modules/Suppliers/TikRandevu.Modules.Suppliers.Presentation/TikRandevu.Modules.Suppliers.Presentation.csproj",
       "msbuildProject": "../../Modules/Suppliers/TikRandevu.Modules.Suppliers.Presentation/TikRandevu.Modules.Suppliers.Presentation.csproj"
+    },
+    "TikRandevu.Modules.Suppliers.PublicAPI/1.0.0": {
+      "type": "project",
+      "path": "../../Modules/Suppliers/TikRandevu.Modules.Suppliers.PublicAPI/TikRandevu.Modules.Suppliers.PublicAPI.csproj",
+      "msbuildProject": "../../Modules/Suppliers/TikRandevu.Modules.Suppliers.PublicAPI/TikRandevu.Modules.Suppliers.PublicAPI.csproj"
     },
     "TikRandevu.Shared.Application/1.0.0": {
       "type": "project",
@@ -3557,6 +3655,7 @@
       "Serilog.AspNetCore >= 8.0.2",
       "Serilog.Sinks.Seq >= 8.0.0",
       "TikRandevu.Modules.Provisions.Infrastructure >= 1.0.0",
+      "TikRandevu.Modules.Rezervations.Infrastructure >= 1.0.0",
       "TikRandevu.Modules.Suppliers.Infrastructure >= 1.0.0",
       "TikRandevu.Shared.Infrastructure >= 1.0.0"
     ]
@@ -3589,6 +3688,9 @@
             "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Infrastructure/TikRandevu.Modules.Provisions.Infrastructure.csproj": {
               "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Infrastructure/TikRandevu.Modules.Provisions.Infrastructure.csproj"
             },
+            "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Rezervations/TikRandevu.Modules.Rezervations.Infrastructure/TikRandevu.Modules.Rezervations.Infrastructure.csproj": {
+              "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Rezervations/TikRandevu.Modules.Rezervations.Infrastructure/TikRandevu.Modules.Rezervations.Infrastructure.csproj"
+            },
             "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Infrastructure/TikRandevu.Modules.Suppliers.Infrastructure.csproj": {
               "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Infrastructure/TikRandevu.Modules.Suppliers.Infrastructure.csproj"
             },
@@ -3602,6 +3704,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {

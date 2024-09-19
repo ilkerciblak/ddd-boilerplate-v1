@@ -280,6 +280,24 @@
       },
       "System.Diagnostics.DiagnosticSource/8.0.0": {},
       "System.IO.Pipelines/5.0.1": {},
+      "TikRandevu.Modules.Rezervations.Application/1.0.0": {
+        "dependencies": {
+          "TikRandevu.Modules.Rezervations.Domain": "1.0.0",
+          "TikRandevu.Modules.Suppliers.PublicAPI": "1.0.0",
+          "TikRandevu.Shared.Application": "1.0.0"
+        },
+        "runtime": {
+          "TikRandevu.Modules.Rezervations.Application.dll": {}
+        }
+      },
+      "TikRandevu.Modules.Rezervations.Domain/1.0.0": {
+        "dependencies": {
+          "TikRandevu.Shared.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TikRandevu.Modules.Rezervations.Domain.dll": {}
+        }
+      },
       "TikRandevu.Modules.Suppliers.Application/1.0.0": {
         "dependencies": {
           "TikRandevu.Modules.Suppliers.Domain": "1.0.0",
@@ -299,11 +317,21 @@
       },
       "TikRandevu.Modules.Suppliers.Presentation/1.0.0": {
         "dependencies": {
+          "TikRandevu.Modules.Rezervations.Application": "1.0.0",
           "TikRandevu.Modules.Suppliers.Application": "1.0.0",
+          "TikRandevu.Modules.Suppliers.PublicAPI": "1.0.0",
           "TikRandevu.Shared.Presentation": "1.0.0"
         },
         "runtime": {
           "TikRandevu.Modules.Suppliers.Presentation.dll": {}
+        }
+      },
+      "TikRandevu.Modules.Suppliers.PublicAPI/1.0.0": {
+        "dependencies": {
+          "TikRandevu.Modules.Suppliers.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TikRandevu.Modules.Suppliers.PublicAPI.dll": {}
         }
       },
       "TikRandevu.Shared.Application/1.0.0": {
@@ -340,6 +368,7 @@
       },
       "TikRandevu.Shared.Presentation/1.0.0": {
         "dependencies": {
+          "MassTransit.Abstractions": "8.2.5",
           "TikRandevu.Shared.Domain": "1.0.0"
         },
         "runtime": {
@@ -578,6 +607,16 @@
       "path": "system.io.pipelines/5.0.1",
       "hashPath": "system.io.pipelines.5.0.1.nupkg.sha512"
     },
+    "TikRandevu.Modules.Rezervations.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TikRandevu.Modules.Rezervations.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "TikRandevu.Modules.Suppliers.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -589,6 +628,11 @@
       "sha512": ""
     },
     "TikRandevu.Modules.Suppliers.Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TikRandevu.Modules.Suppliers.PublicAPI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

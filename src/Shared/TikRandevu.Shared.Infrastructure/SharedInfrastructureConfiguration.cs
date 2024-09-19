@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using StackExchange.Redis;
 using TikRandevu.Shared.Application.Caching;
+using TikRandevu.Shared.Application.EventBus;
 using TikRandevu.Shared.Infrastructure.Caching;
 using TikRandevu.Shared.Infrastructure.Interceptors;
 
@@ -30,10 +31,13 @@ public static class SharedInfrastructureConfiguration
 
         services.TryAddSingleton<PublishDomainEventInterceptor>();
         services.TryAddSingleton<ICacheService, CacheService>();
+        services.TryAddSingleton<IEventBus, EventBus.EventBus>();
         
 
         services.AddMassTransit(configure: cfg =>
         {
+            
+            
             
             foreach (Action<IRegistrationConfigurator> configureConsumers in moduleConfigureConsumers)
             {
@@ -41,6 +45,8 @@ public static class SharedInfrastructureConfiguration
             }
             
             // cfg.SetKebabCaseEndpointNameFormatter();
+            
+            
             
             cfg.UsingInMemory(configure: (context, configurator) =>
             {
@@ -51,4 +57,7 @@ public static class SharedInfrastructureConfiguration
 
         return services;
     }
+
+
+    
 }

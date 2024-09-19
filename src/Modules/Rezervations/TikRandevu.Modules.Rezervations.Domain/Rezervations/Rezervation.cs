@@ -1,4 +1,3 @@
-using System.Runtime.CompilerServices;
 using TikRandevu.Modules.Rezervations.Domain.Rezervations.DomainEvents;
 using TikRandevu.Shared.Domain.Abstractions;
 using TikRandevu.Shared.Domain.ResponseFoundation;

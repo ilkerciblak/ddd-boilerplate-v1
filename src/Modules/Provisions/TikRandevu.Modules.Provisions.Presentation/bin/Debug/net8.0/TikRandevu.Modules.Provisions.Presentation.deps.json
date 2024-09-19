@@ -35,6 +35,14 @@
           }
         }
       },
+      "MassTransit.Abstractions/8.2.5": {
+        "runtime": {
+          "lib/net8.0/MassTransit.Abstractions.dll": {
+            "assemblyVersion": "8.2.5.0",
+            "fileVersion": "8.2.5.0"
+          }
+        }
+      },
       "MediatR/12.4.1": {
         "dependencies": {
           "MediatR.Contracts": "2.0.1",
@@ -121,6 +129,7 @@
       },
       "TikRandevu.Shared.Presentation/1.0.0": {
         "dependencies": {
+          "MassTransit.Abstractions": "8.2.5",
           "TikRandevu.Shared.Domain": "1.0.0"
         },
         "runtime": {
@@ -148,6 +157,13 @@
       "sha512": "sha512-hIe+i6P+ZUxFh6lJOBXRs4EGE/thcub0Lpdk2FF2/JBKJUqDqE2xDnBIiqTMkpXLoekgBN0SlhJT0vpeNr1J6g==",
       "path": "fluentvalidation.dependencyinjectionextensions/11.10.0",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512"
+    },
+    "MassTransit.Abstractions/8.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TcAV7ZEdXTrw6D74g55mlEYLBBQvsifNrdfwt0UCps7mZVBoXoS3fvMHCQguRgj+6k1Q1qEV9kZa0aUOT7GcPQ==",
+      "path": "masstransit.abstractions/8.2.5",
+      "hashPath": "masstransit.abstractions.8.2.5.nupkg.sha512"
     },
     "MediatR/12.4.1": {
       "type": "package",

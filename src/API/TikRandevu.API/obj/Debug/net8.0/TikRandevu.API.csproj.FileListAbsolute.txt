@@ -145,3 +145,13 @@
 /Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/bin/Debug/net8.0/TikRandevu.Modules.Suppliers.Application.pdb
 /Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/bin/Debug/net8.0/TikRandevu.Modules.Suppliers.Domain.pdb
 /Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/bin/Debug/net8.0/TikRandevu.Modules.Suppliers.Presentation.pdb
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/bin/Debug/net8.0/TikRandevu.Modules.Rezervations.Application.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/bin/Debug/net8.0/TikRandevu.Modules.Rezervations.Domain.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/bin/Debug/net8.0/TikRandevu.Modules.Rezervations.Infrastructure.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/bin/Debug/net8.0/TikRandevu.Modules.Rezervations.Presentation.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/bin/Debug/net8.0/TikRandevu.Modules.Rezervations.Infrastructure.pdb
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/bin/Debug/net8.0/TikRandevu.Modules.Rezervations.Application.pdb
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/bin/Debug/net8.0/TikRandevu.Modules.Rezervations.Domain.pdb
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/bin/Debug/net8.0/TikRandevu.Modules.Rezervations.Presentation.pdb
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/bin/Debug/net8.0/TikRandevu.Modules.Suppliers.PublicAPI.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/API/TikRandevu.API/bin/Debug/net8.0/TikRandevu.Modules.Suppliers.PublicAPI.pdb

@@ -12,6 +12,7 @@ public sealed class StoreSupplierRezervationsCommandHandler(ISupplierRezervation
     public async Task<Result<Guid>> Handle(StoreSupplierRezervationsCommand request, CancellationToken cancellationToken)
     {
         var result = SupplierRezervation.Create(request.SupplierId, request.ProvisionId, request.CustomerId,
+            "Ilker Ciblak",
             request.RezervationDate);
 
         if (result.IsFailure)

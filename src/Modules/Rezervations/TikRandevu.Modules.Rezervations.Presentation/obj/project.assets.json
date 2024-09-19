@@ -32,6 +32,19 @@
           }
         }
       },
+      "MassTransit.Abstractions/8.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/MassTransit.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MassTransit.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MediatR/12.4.1": {
         "type": "package",
         "dependencies": {
@@ -115,6 +128,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "TikRandevu.Modules.Rezervations.Domain": "1.0.0",
+          "TikRandevu.Modules.Suppliers.PublicAPI": "1.0.0",
           "TikRandevu.Shared.Application": "1.0.0"
         },
         "compile": {
@@ -135,6 +149,32 @@
         },
         "runtime": {
           "bin/placeholder/TikRandevu.Modules.Rezervations.Domain.dll": {}
+        }
+      },
+      "TikRandevu.Modules.Suppliers.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TikRandevu.Shared.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TikRandevu.Modules.Suppliers.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TikRandevu.Modules.Suppliers.Domain.dll": {}
+        }
+      },
+      "TikRandevu.Modules.Suppliers.PublicAPI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TikRandevu.Modules.Suppliers.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TikRandevu.Modules.Suppliers.PublicAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TikRandevu.Modules.Suppliers.PublicAPI.dll": {}
         }
       },
       "TikRandevu.Shared.Application/1.0.0": {
@@ -171,6 +211,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "MassTransit.Abstractions": "8.2.5",
           "TikRandevu.Shared.Domain": "1.0.0"
         },
         "compile": {
@@ -226,6 +267,27 @@
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
         "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
         "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
+    "MassTransit.Abstractions/8.2.5": {
+      "sha512": "TcAV7ZEdXTrw6D74g55mlEYLBBQvsifNrdfwt0UCps7mZVBoXoS3fvMHCQguRgj+6k1Q1qEV9kZa0aUOT7GcPQ==",
+      "type": "package",
+      "path": "masstransit.abstractions/8.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.README.md",
+        "lib/net472/MassTransit.Abstractions.dll",
+        "lib/net472/MassTransit.Abstractions.xml",
+        "lib/net6.0/MassTransit.Abstractions.dll",
+        "lib/net6.0/MassTransit.Abstractions.xml",
+        "lib/net8.0/MassTransit.Abstractions.dll",
+        "lib/net8.0/MassTransit.Abstractions.xml",
+        "lib/netstandard2.0/MassTransit.Abstractions.dll",
+        "lib/netstandard2.0/MassTransit.Abstractions.xml",
+        "masstransit.abstractions.8.2.5.nupkg.sha512",
+        "masstransit.abstractions.nuspec",
+        "mt-logo-small.png"
       ]
     },
     "MediatR/12.4.1": {
@@ -397,6 +459,16 @@
       "path": "../TikRandevu.Modules.Rezervations.Domain/TikRandevu.Modules.Rezervations.Domain.csproj",
       "msbuildProject": "../TikRandevu.Modules.Rezervations.Domain/TikRandevu.Modules.Rezervations.Domain.csproj"
     },
+    "TikRandevu.Modules.Suppliers.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Suppliers/TikRandevu.Modules.Suppliers.Domain/TikRandevu.Modules.Suppliers.Domain.csproj",
+      "msbuildProject": "../../Suppliers/TikRandevu.Modules.Suppliers.Domain/TikRandevu.Modules.Suppliers.Domain.csproj"
+    },
+    "TikRandevu.Modules.Suppliers.PublicAPI/1.0.0": {
+      "type": "project",
+      "path": "../../Suppliers/TikRandevu.Modules.Suppliers.PublicAPI/TikRandevu.Modules.Suppliers.PublicAPI.csproj",
+      "msbuildProject": "../../Suppliers/TikRandevu.Modules.Suppliers.PublicAPI/TikRandevu.Modules.Suppliers.PublicAPI.csproj"
+    },
     "TikRandevu.Shared.Application/1.0.0": {
       "type": "project",
       "path": "../../../Shared/TikRandevu.Shared.Application/TikRandevu.Shared.Application.csproj",
@@ -457,6 +529,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {

@@ -29,6 +29,9 @@
               "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Rezervations/TikRandevu.Modules.Rezervations.Domain/TikRandevu.Modules.Rezervations.Domain.csproj": {
                 "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Rezervations/TikRandevu.Modules.Rezervations.Domain/TikRandevu.Modules.Rezervations.Domain.csproj"
               },
+              "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.PublicAPI/TikRandevu.Modules.Suppliers.PublicAPI.csproj": {
+                "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.PublicAPI/TikRandevu.Modules.Suppliers.PublicAPI.csproj"
+              },
               "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/TikRandevu.Shared.Application.csproj": {
                 "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/TikRandevu.Shared.Application.csproj"
               }
@@ -39,6 +42,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -96,6 +104,135 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Domain/TikRandevu.Modules.Suppliers.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Domain/TikRandevu.Modules.Suppliers.Domain.csproj",
+        "projectName": "TikRandevu.Modules.Suppliers.Domain",
+        "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Domain/TikRandevu.Modules.Suppliers.Domain.csproj",
+        "packagesPath": "/Users/ilkerciblak/.nuget/packages/",
+        "outputPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ilkerciblak/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Domain/TikRandevu.Shared.Domain.csproj": {
+                "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Domain/TikRandevu.Shared.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.PublicAPI/TikRandevu.Modules.Suppliers.PublicAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.PublicAPI/TikRandevu.Modules.Suppliers.PublicAPI.csproj",
+        "projectName": "TikRandevu.Modules.Suppliers.PublicAPI",
+        "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.PublicAPI/TikRandevu.Modules.Suppliers.PublicAPI.csproj",
+        "packagesPath": "/Users/ilkerciblak/.nuget/packages/",
+        "outputPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.PublicAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ilkerciblak/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Domain/TikRandevu.Modules.Suppliers.Domain.csproj": {
+                "projectPath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Domain/TikRandevu.Modules.Suppliers.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -153,6 +290,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -224,6 +366,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {

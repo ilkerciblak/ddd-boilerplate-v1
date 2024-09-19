@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "C3qZxlrXHB96gtYo8ebwT9zEZsUUyXNg4WnI3LWM8JuUBu2k4QEDHsC25oO8S0yudp06xk0hsmNMtgBD4HpBnQ==",
+  "dgSpecHash": "khQg08myO1Y=",
   "success": true,
   "projectFilePath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Rezervations/TikRandevu.Modules.Rezervations.Presentation/TikRandevu.Modules.Rezervations.Presentation.csproj",
   "expectedPackageFiles": [
     "/Users/ilkerciblak/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.10.0/fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512",
+    "/Users/ilkerciblak/.nuget/packages/masstransit.abstractions/8.2.5/masstransit.abstractions.8.2.5.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/ilkerciblak/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
