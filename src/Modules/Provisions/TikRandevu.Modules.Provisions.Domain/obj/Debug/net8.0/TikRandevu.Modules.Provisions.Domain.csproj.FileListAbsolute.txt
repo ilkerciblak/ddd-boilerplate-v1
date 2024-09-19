@@ -1,0 +1,16 @@
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/bin/Debug/net8.0/TikRandevu.Modules.Provisions.Domain.deps.json
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/bin/Debug/net8.0/TikRandevu.Modules.Provisions.Domain.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/bin/Debug/net8.0/TikRandevu.Modules.Provisions.Domain.pdb
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/bin/Debug/net8.0/TikRandevu.Shared.Domain.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/bin/Debug/net8.0/TikRandevu.Shared.Domain.pdb
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/obj/Debug/net8.0/TikRandevu.Modules.Provisions.Domain.csproj.AssemblyReference.cache
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/obj/Debug/net8.0/TikRandevu.Modules.Provisions.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/obj/Debug/net8.0/TikRandevu.Modules.Provisions.Domain.AssemblyInfoInputs.cache
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/obj/Debug/net8.0/TikRandevu.Modules.Provisions.Domain.AssemblyInfo.cs
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/obj/Debug/net8.0/TikRandevu.Modules.Provisions.Domain.csproj.CoreCompileInputs.cache
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/obj/Debug/net8.0/TikRandevu.Modules.Provisions.Domain.sourcelink.json
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/obj/Debug/net8.0/TikRande.D2B2F4A4.Up2Date
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/obj/Debug/net8.0/TikRandevu.Modules.Provisions.Domain.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/obj/Debug/net8.0/refint/TikRandevu.Modules.Provisions.Domain.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/obj/Debug/net8.0/TikRandevu.Modules.Provisions.Domain.pdb
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/obj/Debug/net8.0/ref/TikRandevu.Modules.Provisions.Domain.dll

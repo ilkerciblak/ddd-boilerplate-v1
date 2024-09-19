@@ -14,10 +14,16 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\Modules\Provisions\TikRandevu.Modules.Provisions.Infrastructure\TikRandevu.Modules.Provisions.Infrastructure.csproj" />
+      <ProjectReference Include="..\..\Modules\Suppliers\TikRandevu.Modules.Suppliers.Infrastructure\TikRandevu.Modules.Suppliers.Infrastructure.csproj" />
       <ProjectReference Include="..\..\Shared\TikRandevu.Shared.Infrastructure\TikRandevu.Shared.Infrastructure.csproj" />
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
       <PackageReference Include="Serilog.AspNetCore" Version="8.0.2" />
       <PackageReference Include="Serilog.Sinks.Seq" Version="8.0.0" />
     </ItemGroup>

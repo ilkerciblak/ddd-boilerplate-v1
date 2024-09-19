@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Vxry5xlU8a4=",
+  "success": true,
+  "projectFilePath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Provisions/TikRandevu.Modules.Provisions.Domain/TikRandevu.Modules.Provisions.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/ilkerciblak/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

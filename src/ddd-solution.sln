@@ -21,6 +21,26 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Shared.Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Shared.Presentation", "Shared\TikRandevu.Shared.Presentation\TikRandevu.Shared.Presentation.csproj", "{D14BDD7E-C29E-40C6-8D3D-35D70B840D29}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Provisions", "Provisions", "{428DB5BC-92DC-4663-96E0-DB17183B5E36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Provisions.Domain", "Modules\Provisions\TikRandevu.Modules.Provisions.Domain\TikRandevu.Modules.Provisions.Domain.csproj", "{0874B3E5-2DEF-4EB2-9CDD-61ACA6D7B407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Provisions.Application", "Modules\Provisions\TikRandevu.Modules.Provisions.Application\TikRandevu.Modules.Provisions.Application.csproj", "{9036B9DC-8F41-46E7-9EC1-5B0E40D92415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Provisions.Presentation", "Modules\Provisions\TikRandevu.Modules.Provisions.Presentation\TikRandevu.Modules.Provisions.Presentation.csproj", "{067F92E8-FB30-4BA5-A4B1-0DB8D7E22EA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Provisions.Infrastructure", "Modules\Provisions\TikRandevu.Modules.Provisions.Infrastructure\TikRandevu.Modules.Provisions.Infrastructure.csproj", "{EB73E0A4-4A5A-4E57-965A-17F19D990E30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Suppliers", "Suppliers", "{DCEF2C1B-7B6A-41FF-ACC3-AE6B11A02077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Suppliers.Domain", "Modules\Suppliers\TikRandevu.Modules.Suppliers.Domain\TikRandevu.Modules.Suppliers.Domain.csproj", "{3DC25798-DF87-450F-93D7-1CBE80C2A2A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Suppliers.Application", "Modules\Suppliers\TikRandevu.Modules.Suppliers.Application\TikRandevu.Modules.Suppliers.Application.csproj", "{C4E3E2B3-4805-46D4-BAE3-A68DB302CDA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Suppliers.Presentation", "Modules\Suppliers\TikRandevu.Modules.Suppliers.Presentation\TikRandevu.Modules.Suppliers.Presentation.csproj", "{56EC4C4D-6130-47B9-933B-C914CA20E0F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Suppliers.Infrastructure", "Modules\Suppliers\TikRandevu.Modules.Suppliers.Infrastructure\TikRandevu.Modules.Suppliers.Infrastructure.csproj", "{0883EDAA-6C41-441D-81A3-549017A0A38A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +52,16 @@ Global
 		{DE60D360-8E04-440B-BB39-B3C1A09C6C6C} = {27B43434-29D4-42C3-96AC-774A201AF4C0}
 		{F486F41E-B5A5-4CBA-9893-D41DDD1DA227} = {27B43434-29D4-42C3-96AC-774A201AF4C0}
 		{D14BDD7E-C29E-40C6-8D3D-35D70B840D29} = {27B43434-29D4-42C3-96AC-774A201AF4C0}
+		{428DB5BC-92DC-4663-96E0-DB17183B5E36} = {647C9D74-3A3D-4D6F-875B-6708BB90689B}
+		{0874B3E5-2DEF-4EB2-9CDD-61ACA6D7B407} = {428DB5BC-92DC-4663-96E0-DB17183B5E36}
+		{9036B9DC-8F41-46E7-9EC1-5B0E40D92415} = {428DB5BC-92DC-4663-96E0-DB17183B5E36}
+		{067F92E8-FB30-4BA5-A4B1-0DB8D7E22EA6} = {428DB5BC-92DC-4663-96E0-DB17183B5E36}
+		{EB73E0A4-4A5A-4E57-965A-17F19D990E30} = {428DB5BC-92DC-4663-96E0-DB17183B5E36}
+		{DCEF2C1B-7B6A-41FF-ACC3-AE6B11A02077} = {647C9D74-3A3D-4D6F-875B-6708BB90689B}
+		{3DC25798-DF87-450F-93D7-1CBE80C2A2A4} = {DCEF2C1B-7B6A-41FF-ACC3-AE6B11A02077}
+		{C4E3E2B3-4805-46D4-BAE3-A68DB302CDA6} = {DCEF2C1B-7B6A-41FF-ACC3-AE6B11A02077}
+		{56EC4C4D-6130-47B9-933B-C914CA20E0F5} = {DCEF2C1B-7B6A-41FF-ACC3-AE6B11A02077}
+		{0883EDAA-6C41-441D-81A3-549017A0A38A} = {DCEF2C1B-7B6A-41FF-ACC3-AE6B11A02077}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{355CB228-892D-40D9-84C2-2EBAEC2A400F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -54,5 +84,37 @@ Global
 		{D14BDD7E-C29E-40C6-8D3D-35D70B840D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D14BDD7E-C29E-40C6-8D3D-35D70B840D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D14BDD7E-C29E-40C6-8D3D-35D70B840D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0874B3E5-2DEF-4EB2-9CDD-61ACA6D7B407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0874B3E5-2DEF-4EB2-9CDD-61ACA6D7B407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0874B3E5-2DEF-4EB2-9CDD-61ACA6D7B407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0874B3E5-2DEF-4EB2-9CDD-61ACA6D7B407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9036B9DC-8F41-46E7-9EC1-5B0E40D92415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9036B9DC-8F41-46E7-9EC1-5B0E40D92415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9036B9DC-8F41-46E7-9EC1-5B0E40D92415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9036B9DC-8F41-46E7-9EC1-5B0E40D92415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{067F92E8-FB30-4BA5-A4B1-0DB8D7E22EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067F92E8-FB30-4BA5-A4B1-0DB8D7E22EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067F92E8-FB30-4BA5-A4B1-0DB8D7E22EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067F92E8-FB30-4BA5-A4B1-0DB8D7E22EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB73E0A4-4A5A-4E57-965A-17F19D990E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB73E0A4-4A5A-4E57-965A-17F19D990E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB73E0A4-4A5A-4E57-965A-17F19D990E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB73E0A4-4A5A-4E57-965A-17F19D990E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC25798-DF87-450F-93D7-1CBE80C2A2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC25798-DF87-450F-93D7-1CBE80C2A2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC25798-DF87-450F-93D7-1CBE80C2A2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC25798-DF87-450F-93D7-1CBE80C2A2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E3E2B3-4805-46D4-BAE3-A68DB302CDA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E3E2B3-4805-46D4-BAE3-A68DB302CDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E3E2B3-4805-46D4-BAE3-A68DB302CDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E3E2B3-4805-46D4-BAE3-A68DB302CDA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56EC4C4D-6130-47B9-933B-C914CA20E0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EC4C4D-6130-47B9-933B-C914CA20E0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EC4C4D-6130-47B9-933B-C914CA20E0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56EC4C4D-6130-47B9-933B-C914CA20E0F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0883EDAA-6C41-441D-81A3-549017A0A38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0883EDAA-6C41-441D-81A3-549017A0A38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0883EDAA-6C41-441D-81A3-549017A0A38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0883EDAA-6C41-441D-81A3-549017A0A38A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -2,7 +2,7 @@ namespace TikRandevu.Shared.Domain.ResponseFoundation;
 
 public record AlreadyArchived<T> : Error
 {
-    protected AlreadyArchived(T entity) 
+    public AlreadyArchived() 
         : base(
         code: $"{typeof(T).Name}.AlreadyArchived",
         description: $"{typeof(T).Name} Already Archived",

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Shared\TikRandevu.Shared.Infrastructure\TikRandevu.Shared.Infrastructure.csproj" />
+      <ProjectReference Include="..\TikRandevu.Modules.Provisions.Application\TikRandevu.Modules.Provisions.Application.csproj" />
+      <ProjectReference Include="..\TikRandevu.Modules.Provisions.Presentation\TikRandevu.Modules.Provisions.Presentation.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/bin/Debug/net8.0/TikRandevu.Shared.Application.deps.json
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/bin/Debug/net8.0/TikRandevu.Shared.Application.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/bin/Debug/net8.0/TikRandevu.Shared.Application.pdb
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/bin/Debug/net8.0/TikRandevu.Shared.Domain.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/bin/Debug/net8.0/TikRandevu.Shared.Domain.pdb
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/obj/Debug/net8.0/TikRandevu.Shared.Application.csproj.AssemblyReference.cache
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/obj/Debug/net8.0/TikRandevu.Shared.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/obj/Debug/net8.0/TikRandevu.Shared.Application.AssemblyInfoInputs.cache
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/obj/Debug/net8.0/TikRandevu.Shared.Application.AssemblyInfo.cs
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/obj/Debug/net8.0/TikRandevu.Shared.Application.csproj.CoreCompileInputs.cache
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/obj/Debug/net8.0/TikRandevu.Shared.Application.sourcelink.json
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/obj/Debug/net8.0/TikRande.55305723.Up2Date
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/obj/Debug/net8.0/TikRandevu.Shared.Application.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/obj/Debug/net8.0/refint/TikRandevu.Shared.Application.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/obj/Debug/net8.0/TikRandevu.Shared.Application.pdb
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Application/obj/Debug/net8.0/ref/TikRandevu.Shared.Application.dll

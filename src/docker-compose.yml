@@ -1,7 +1,7 @@
 ﻿services:
   tikrandevu.db:
     image: postgres:latest
-    container_name: TikRandevu.db
+    container_name: tikrandevu.db
     restart: always
     environment:
       - POSTGRES_DB=TikRandevu
@@ -13,13 +13,13 @@
       - "5432:5432"
   tikrandevu.redis:
     image: redis:latest
-    container_name: TikRandevu.redis
+    container_name: tikrandevu.redis
     restart: always
     ports:
       - "6379:6379"
   tikrandevu.seq:
     image: datalust/seq:latest
-    container_name: TikRandevu.seq
+    container_name: tikrandevu.seq
     environment:
       - ACCEPT_EULA=Y
     ports:
@@ -30,6 +30,7 @@
     depends_on:
       - tikrandevu.db
       - tikrandevu.redis
+      - tikrandevu.seq
     build:
       context: .
       dockerfile: API/TikRandevu.API/Dockerfile
@@ -37,7 +38,7 @@
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_HTTP_PORTS=8080
       - ASPNETCORE_HTTPS_PORTS=8081
-      - ConnectionStrings__Database=HOST=tikrandevu.db;Port=5432;Database=TikRandevu;User Id=postgres;Password=pass;Include Error Detail=true
+      - ConnectionStrings__Database=Host=tikrandevu.db;Port=5432;Database=TikRandevu;User Id=postgres;Password=pass;Include Error Detail=true
       - ConnectionStrings__Redis=tikrandevu.redis:6379
       - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
       - ASPNETCORE_Kestrel__Certificates__Default__Password=682862Ask

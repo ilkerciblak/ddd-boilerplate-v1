@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bw5vEbOQ9iE=",
+  "success": true,
+  "projectFilePath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Suppliers/TikRandevu.Modules.Suppliers.Application/TikRandevu.Modules.Suppliers.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/ilkerciblak/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512",
+    "/Users/ilkerciblak/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.10.0/fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512",
+    "/Users/ilkerciblak/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/Users/ilkerciblak/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/ilkerciblak/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "/Users/ilkerciblak/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.1/microsoft.extensions.logging.abstractions.8.0.1.nupkg.sha512",
+    "/Users/ilkerciblak/.nuget/packages/serilog/4.0.1/serilog.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

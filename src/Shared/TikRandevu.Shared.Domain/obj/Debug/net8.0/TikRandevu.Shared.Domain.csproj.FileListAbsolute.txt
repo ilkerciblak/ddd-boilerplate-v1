@@ -1,0 +1,13 @@
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Domain/bin/Debug/net8.0/TikRandevu.Shared.Domain.deps.json
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Domain/bin/Debug/net8.0/TikRandevu.Shared.Domain.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Domain/bin/Debug/net8.0/TikRandevu.Shared.Domain.pdb
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Domain/obj/Debug/net8.0/TikRandevu.Shared.Domain.csproj.AssemblyReference.cache
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Domain/obj/Debug/net8.0/TikRandevu.Shared.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Domain/obj/Debug/net8.0/TikRandevu.Shared.Domain.AssemblyInfoInputs.cache
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Domain/obj/Debug/net8.0/TikRandevu.Shared.Domain.AssemblyInfo.cs
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Domain/obj/Debug/net8.0/TikRandevu.Shared.Domain.csproj.CoreCompileInputs.cache
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Domain/obj/Debug/net8.0/TikRandevu.Shared.Domain.sourcelink.json
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Domain/obj/Debug/net8.0/TikRandevu.Shared.Domain.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Domain/obj/Debug/net8.0/refint/TikRandevu.Shared.Domain.dll
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Domain/obj/Debug/net8.0/TikRandevu.Shared.Domain.pdb
+/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Shared/TikRandevu.Shared.Domain/obj/Debug/net8.0/ref/TikRandevu.Shared.Domain.dll
