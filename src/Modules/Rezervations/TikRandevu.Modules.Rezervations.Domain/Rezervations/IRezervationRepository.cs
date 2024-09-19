@@ -8,4 +8,9 @@ public interface IRezervationRepository : IRepository<Rezervation>
         Guid? customerId,
         Guid? supplierId,
         CancellationToken cancellationToken = default);
+
+    Task<Guid> CompletePayment(
+        Guid rezervationId,
+        CancellationToken cancellationToken = default
+    );
 }
