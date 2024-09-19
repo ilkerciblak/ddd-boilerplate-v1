@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wkN1fHJIQz6O91CB2VcFAMC0EVP5vcukTXM+wjSR4KLnZNI4/CfRGoUVg2SWh54p9apxdDQcxtoMFyD9nc+NeQ==",
+  "success": true,
+  "projectFilePath": "/Users/ilkerciblak/Development/projects/ddd-boilerplate-v1/src/Modules/Rezervations/TikRandevu.Modules.Rezervations.Domain/TikRandevu.Modules.Rezervations.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/ilkerciblak/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -41,6 +41,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Supplier
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Suppliers.Infrastructure", "Modules\Suppliers\TikRandevu.Modules.Suppliers.Infrastructure\TikRandevu.Modules.Suppliers.Infrastructure.csproj", "{0883EDAA-6C41-441D-81A3-549017A0A38A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rezervations", "Rezervations", "{6E9ECAD8-0406-4579-9ABE-F67C78A68636}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{9E3108A6-9BF0-4B0C-B8D4-5218C72E3CD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Rezervations.Domain", "Modules\Rezervations\TikRandevu.Modules.Rezervations.Domain\TikRandevu.Modules.Rezervations.Domain.csproj", "{33C490F7-823D-423F-876D-CECBB3FBA51A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TikRandevu.Modules.Rezervations.Application", "Modules\Rezervations\TikRandevu.Modules.Rezervations.Application\TikRandevu.Modules.Rezervations.Application.csproj", "{73B448E8-85D5-4A78-9E5F-EFE224CE1FA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +70,10 @@ Global
 		{C4E3E2B3-4805-46D4-BAE3-A68DB302CDA6} = {DCEF2C1B-7B6A-41FF-ACC3-AE6B11A02077}
 		{56EC4C4D-6130-47B9-933B-C914CA20E0F5} = {DCEF2C1B-7B6A-41FF-ACC3-AE6B11A02077}
 		{0883EDAA-6C41-441D-81A3-549017A0A38A} = {DCEF2C1B-7B6A-41FF-ACC3-AE6B11A02077}
+		{6E9ECAD8-0406-4579-9ABE-F67C78A68636} = {647C9D74-3A3D-4D6F-875B-6708BB90689B}
+		{9E3108A6-9BF0-4B0C-B8D4-5218C72E3CD5} = {647C9D74-3A3D-4D6F-875B-6708BB90689B}
+		{33C490F7-823D-423F-876D-CECBB3FBA51A} = {6E9ECAD8-0406-4579-9ABE-F67C78A68636}
+		{73B448E8-85D5-4A78-9E5F-EFE224CE1FA3} = {6E9ECAD8-0406-4579-9ABE-F67C78A68636}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{355CB228-892D-40D9-84C2-2EBAEC2A400F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -116,5 +128,13 @@ Global
 		{0883EDAA-6C41-441D-81A3-549017A0A38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0883EDAA-6C41-441D-81A3-549017A0A38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0883EDAA-6C41-441D-81A3-549017A0A38A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C490F7-823D-423F-876D-CECBB3FBA51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C490F7-823D-423F-876D-CECBB3FBA51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C490F7-823D-423F-876D-CECBB3FBA51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C490F7-823D-423F-876D-CECBB3FBA51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B448E8-85D5-4A78-9E5F-EFE224CE1FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B448E8-85D5-4A78-9E5F-EFE224CE1FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B448E8-85D5-4A78-9E5F-EFE224CE1FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B448E8-85D5-4A78-9E5F-EFE224CE1FA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
