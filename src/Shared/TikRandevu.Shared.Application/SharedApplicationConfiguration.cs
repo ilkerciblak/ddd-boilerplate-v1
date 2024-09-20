@@ -12,11 +12,9 @@ public static class SharedApplicationConfiguration
         Assembly[] assemblies
     )
     {
-
-
+        
         service.AddMediatR(cfg =>
         {
-
             cfg.RegisterServicesFromAssemblies(assemblies);
 
             cfg.AddOpenBehavior(typeof(RequestExceptionHandlingBehavior<,>));
